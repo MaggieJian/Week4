@@ -4,22 +4,23 @@ The purpose of this GitHub page is to share the code I have used for Week 4 of t
 
 ## Description
 
-You will learn how to find lists of colocated images from pairs of satellites: collocated Sentinel-3 (300m resolution) and Sentinel-2 imagery (10m resolution) as well as collocated altimetry data from Sentinel-3. Unsupervised classification will be performed.
+You will learn how to find lists of colocated images from pairs of collocated satellites: Sentinel-3 (300m resolution) and Sentinel-2 imagery (10m resolution) as well as collocated altimetry data from Sentinel-3. Unsupervised classification will be performed.
 
 Therefore, this project is divided into two sections:
 1) Colocating Sentinel-3 OLCI and Sentinal-2 Optical Data
 2) Unsupervised Learning
 
-Tasks to successfully classify the echoes in leads and sea ice in this project, you will produce:
+To successfully classify the echoes in leads and sea ice in this project, you will produce:
 1) An average echo shape
 2) A standard deviation for these two classes
-3) A confusion matrix to quantify echo classification against the ESA official classification
+3) A confusion matrix (to quantify echo classification against the ESA official classification)
 
 ## Getting Started
 
 ### Dependencies
 
 Online requirements: A Google account and a good internet connection
+Files to Download: Unzipped SENTINEL and OLCI files
 Libraries: numpy (as np), ee, os, datetime (timedelta and date), sklearn.cluster (KMeans and DBSCAN), matplotlib.pyplot (as plt), pyproj, shapely.geometry, subprocess, requests, pandas (as pd), rasterio, requests, time, cartopy.crs (as ccrs), sklearn.preprocessing (StandardScaler, MinMaxScaler), sklearn.mixture (GaussianMixture), scipy.cluster.hierarchy (linkage, fcluster), shutil, json, joblib (Parallel), zipfile, sys, glob, netCDF4 (Dataset), scipy.interpolate (griddata), numpy.ma (as ma), glob, matplotlib.patches (Polygon), and scipy.spatial (as spatial and as KDTree).
 
 RAM requirements:
@@ -39,16 +40,18 @@ code blocks for commands
 ## Help
 
 Any advise for common problems or issues.
+
+The paths should lead to the corrrect satellite images in your Google Drive. If not, re-upload your unzipped satellite images to your Google Drive or change the path.
 ```
 command to run if program contains helper info
 ```
 
 ## Authors
 
-Contributors names and contact info
+Maggie Jian
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+maggie.jian.21@ucl.ac.uk
+
 
 ## Version History
 
@@ -60,13 +63,12 @@ ex. [@DomPizzie](https://twitter.com/dompizzie)
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is not licensed
 
 ## Acknowledgments
 
 Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+[GEOL0069 Jupyter Notebook] (https://cpomucl.github.io/GEOL0069-AI4EO/intro.html)
+[awesome-readme](https://github.com/matiassingers/awesome-readme)
+[PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
+[dbader](https://github.com/dbader/readme-template)
