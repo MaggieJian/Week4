@@ -29,9 +29,8 @@ RAM requirements:
 
 To access the Google Colab file, go to the GitHub repository (MaggieJian/Week4) or click https://github.com/MaggieJian/Week4
 
-### Executing program
+### How to run the program
 
-* How to run the program
 * Step-by-step bullets
 ```
 code blocks for commands
