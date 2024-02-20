@@ -1,22 +1,32 @@
 # Week 4: Collocation and unsupervised classification
 
-Simple overview of use/purpose.
+The purpose of this GitHub page is to share the code I have used for Week 4 of the module named GEOL0069: Artificial Intelligence For Earth Observation (AI4EO) 2023/24. This module primarily uses sea ice and lead classification.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+You will learn how to find lists of colocated images from pairs of satellites: collocated Sentinel-3 (300m resolution) and Sentinel-2 imagery (10m resolution) as well as collocated altimetry data from Sentinel-3. Unsupervised classification will be performed.
+
+Therefore, this project is divided into two sections:
+1) Colocating Sentinel-3 OLCI and Sentinal-2 Optical Data
+2) Unsupervised Learning
+
+Tasks to successfully classify the echoes in leads and sea ice in this project, you will produce:
+1) An average echo shape
+2) A standard deviation for these two classes
+3) A confusion matrix to quantify echo classification against the ESA official classification
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+Online requirements: A Google account and a good internet connection
+Libraries: numpy (as np), ee, os, datetime (timedelta and date), sklearn.cluster (KMeans and DBSCAN), matplotlib.pyplot (as plt), pyproj, shapely.geometry, subprocess, requests, pandas (as pd), rasterio, requests, time, cartopy.crs (as ccrs), sklearn.preprocessing (StandardScaler, MinMaxScaler), sklearn.mixture (GaussianMixture), scipy.cluster.hierarchy (linkage, fcluster), shutil, json, joblib (Parallel), zipfile, sys, glob, netCDF4 (Dataset), scipy.interpolate (griddata), numpy.ma (as ma), glob, matplotlib.patches (Polygon), and scipy.spatial (as spatial and as KDTree).
+
+RAM requirements:
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+To access the Google Colab file, go to the GitHub repository (MaggieJian/Week4) or click https://github.com/MaggieJian/Week4
 
 ### Executing program
 
