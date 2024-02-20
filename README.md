@@ -1,6 +1,6 @@
 # Week 4: Collocation and unsupervised classification
 
-The purpose of this GitHub page is to share the code I have used for Week 4 of the module named GEOL0069: Artificial Intelligence For Earth Observation (AI4EO) 2023/24. This module primarily uses sea ice and lead classification.
+The purpose of this GitHub page is to share the code used for Week 4 of the module named GEOL0069: Artificial Intelligence For Earth Observation (AI4EO) 2023/24. This primarily focusses on sea ice and lead classification.
 
 ## Description
 
