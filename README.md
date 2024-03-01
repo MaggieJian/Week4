@@ -46,11 +46,11 @@ Check: The paths should lead to the corrrect satellite images in your Google Dri
 command to run if program contains helper info
 ```
 
-## Authors
+## Author
 
-Maggie Jian
+Name: Maggie Jian
 
-maggie.jian.21@ucl.ac.uk
+Contact: maggie.jian.21@ucl.ac.uk
 
 
 ## Version History
