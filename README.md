@@ -16,9 +16,7 @@ To successfully classify the echoes in leads and sea ice in this project, you wi
 3) A confusion matrix (to quantify echo classification against the ESA official classification)
 
 ![image](https://github.com/MaggieJian/Week4/assets/160494175/3adc0b36-a221-4626-abfb-47120b3ff2f4)
-![image](https://github.com/MaggieJian/Week4/assets/160494175/68fb30bc-2e67-4cd5-8190-0fad8d1e20d6)
-![image](https://github.com/MaggieJian/Week4/assets/160494175/f7f7949d-adf4-4ede-9c33-97b25ab85b77)
-
+![image](https://github.com/MaggieJian/Week4/assets/160494175/d63adc99-69b7-45ea-9995-e3bd35f0ab4f)
 
 ## Getting Started
 
